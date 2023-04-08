@@ -39,8 +39,8 @@ class MatchItemAdapter(
             this.gameMode.text = match.info.gameMode
             if ((match.info.participants?.firstOrNull { it.puuid == puuid }?.win == true)
             ) {
-                this.status.text = "Победа"
-            } else this.status.text = "Поражение"
+                this.status.text = "WIN"
+            } else this.status.text = "LOSE"
             this.itemView.setOnClickListener {
                 onClickListener.onClick(match)
             }
