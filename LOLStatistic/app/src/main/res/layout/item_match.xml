@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_match_back">
+
+    <TextView
+        android:id="@+id/game_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/item_match_margin_top_and_start"
+        android:textColor="@color/color_button"
+        android:textSize="@dimen/game_mode_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/match_kills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/item_match_margin_top_and_start"
+        android:text="@string/kills"
+        android:textColor="@color/color_kills"
+        android:textSize="@dimen/info_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/game_mode" />
+
+    <TextView
+        android:id="@+id/match_count_of_kills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/item_match_margin_top_and_start"
+        android:text="@string/zero"
+        android:textColor="@color/color_kills"
+        android:textSize="@dimen/info_text_size"
+        app:layout_constraintStart_toEndOf="@+id/match_kills"
+        app:layout_constraintTop_toBottomOf="@+id/game_mode" />
+
+    <TextView
+        android:id="@+id/match_assists"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/assists"
+        android:textColor="@color/color_assists"
+        android:textSize="@dimen/info_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/game_mode" />
+
+    <TextView
+        android:id="@+id/match_count_of_assists"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/item_match_margin_top_and_start"
+        android:text="@string/zero"
+        android:textColor="@color/color_assists"
+        android:textSize="@dimen/info_text_size"
+        app:layout_constraintStart_toEndOf="@+id/match_assists"
+        app:layout_constraintTop_toBottomOf="@+id/game_mode" />
+
+    <TextView
+        android:id="@+id/match_death"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/item_match_margin_top_and_start"
+        android:text="@string/deaths"
+        android:textColor="@color/black"
+        android:textSize="@dimen/info_text_size"
+        app:layout_constraintEnd_toStartOf="@+id/count_of_death"
+        app:layout_constraintTop_toBottomOf="@+id/game_mode" />
+
+    <TextView
+        android:id="@+id/count_of_death"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/item_match_margin_top_and_start"
+        android:text="@string/zero"
+        android:textColor="@color/black"
+        android:textSize="@dimen/info_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/game_mode" />
+
+    <TextView
+        android:id="@+id/win_lose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/game_mode_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/match_assists" />
+
+    <TextView
+        android:id="@+id/position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/item_match_statistic_start_item_number_margin"
+        android:layout_marginTop="@dimen/item_match_margin_top_and_start"
+        android:textColor="@color/color_kills"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/count_of_match_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/item_match_margin_top_and_start"
+        android:layout_marginEnd="@dimen/item_match_margin_top_and_start"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/match_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/item_match_margin_top_and_start"
+        android:layout_marginEnd="@dimen/item_match_margin_top_and_start"
+        android:text="@string/id"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@id/count_of_match_id"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

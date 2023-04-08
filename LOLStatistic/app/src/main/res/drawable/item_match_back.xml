@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <inset android:insetLeft="0dp"
+            >
+            <shape>
+                <stroke
+                    android:color="@color/color_button"
+                    android:width="10dp"/>
+                <corners
+                    android:bottomLeftRadius="@dimen/item_match_background_border_radius"
+                    android:bottomRightRadius="@dimen/item_match_background_border_radius"
+                    android:topLeftRadius="@dimen/item_match_background_border_radius"
+                    android:topRightRadius="@dimen/item_match_background_border_radius"
+                    />
+            </shape>
+        </inset>
+    </item>
+    <item
+        android:top="@dimen/item_match_background_top_and_bottom"
+        android:right="@dimen/item_match_background_left_and_right"
+        android:bottom="@dimen/item_match_background_top_and_bottom"
+        android:left="@dimen/item_match_background_left_and_right">
+        <shape>
+            <solid android:color="@color/color_match_item"/>
+            <corners
+                android:bottomLeftRadius="@dimen/item_match_background_border_radius"
+                android:bottomRightRadius="@dimen/item_match_background_border_radius"
+                android:topLeftRadius="@dimen/item_match_background_border_radius"
+                android:topRightRadius="@dimen/item_match_background_border_radius"
+                />
+        </shape>
+    </item>
+</layer-list>

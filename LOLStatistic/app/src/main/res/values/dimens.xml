@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_width">256dp</dimen>
+    <dimen name="button_height">42dp</dimen>
+    <dimen name="button_margin">56dp</dimen>
+
+    <dimen name="enter_button_text_size">13sp</dimen>
+    <dimen name="info_text_size">15sp</dimen>
+    <dimen name="text_size_header_1">10sp</dimen>
+    <dimen name="text_size_all_review">8sp</dimen>
+    <dimen name="text_size_label">11sp</dimen>
+    <dimen name="text_size_footer">10sp</dimen>
+    <dimen name="server_text_size">20sp</dimen>
+    <dimen name="game_mode_text_size">25sp</dimen>
+
+    <dimen name="button_border_radius">8dp</dimen>
+
+    <dimen name="search_line_width">328dp</dimen>
+    <dimen name="suggest_partner_line_width">328dp</dimen>
+    <dimen name="search_line_height">24dp</dimen>
+    <dimen name="shop_category_line_height">32dp</dimen>
+
+    <dimen name="spinner_margin_top">56dp</dimen>
+
+    <dimen name="item_match_margin_top_and_start">8dp</dimen>
+    <dimen name="item_match_background_border_radius">32dp</dimen>
+    <dimen name="item_match_background_top_and_bottom">2dp</dimen>
+    <dimen name="item_match_background_left_and_right">4dp</dimen>
+    <dimen name="item_match_statistic_start_item_number_margin">20dp</dimen>
+
+
+    <dimen name="recycler_view_marginBottom">104dp</dimen>
+
+
+    <dimen name="name_of_account_marginBottom">8dp</dimen>
+
+    <dimen name="fragment_match_statistic_margin">16dp</dimen>
+    <dimen name="fragment_match_statistic_border_radius">32dp</dimen>
+    <dimen name="fragment_match_statistic_margin_top">32dp</dimen>
+    <dimen name="fragment_match_statistic_name_game_champion_margin_top">56dp</dimen>
+    <dimen name="fragment_match_statistic_kills_deaths_assists_margin_top">104dp</dimen>
+
+    <dimen name="enter_button_marginBottom">48dp</dimen>
+
+</resources>
